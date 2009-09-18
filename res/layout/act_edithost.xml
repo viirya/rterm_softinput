@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:scrollbarStyle="insideInset"
+	android:fillViewport="true">
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1">
+
+		<TextView android:id="@+id/text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:background="@drawable/dark_header_dithered"
+			android:text="@string/edithost_setting_normal"
+			android:textColor="?android:attr/textColorSecondary"
+			android:textStyle="bold" android:textSize="14sp"
+			android:paddingLeft="8dip" />
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_name"
+				android:gravity="right|center_vertical" />
+			<EditText android:id="@+id/edithost_name"
+				android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dip" />
+		</LinearLayout>
+		<View android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="?android:attr/listDivider" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_host"
+				android:gravity="right|center_vertical" />
+			<EditText android:id="@+id/edithost_host"
+				android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dip" />
+		</LinearLayout>
+		<View android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="?android:attr/listDivider" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_protocal"
+				android:gravity="right|center_vertical" />
+			<Spinner android:id="@+id/edithost_protocal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"
+				android:prompt="@string/edithost_protocal_prompt"
+				android:layout_marginLeft="8dip" />
+		</LinearLayout>
+		<View android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="?android:attr/listDivider" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_port"
+				android:gravity="right|center_vertical" />
+			<EditText android:id="@+id/edithost_port"
+				android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dip" />
+		</LinearLayout>
+		<View android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="?android:attr/listDivider" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_encoding"
+				android:gravity="right|center_vertical" />
+			<Spinner android:id="@+id/edithost_encoding"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"
+				android:prompt="@string/edithost_encoding_prompt"
+				android:layout_marginLeft="8dip" />
+		</LinearLayout>
+
+		<TextView android:id="@+id/text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:background="@drawable/dark_header_dithered"
+			android:text="@string/edithost_setting_autologin"
+			android:textColor="?android:attr/textColorSecondary"
+			android:textStyle="bold" android:textSize="14sp"
+			android:paddingLeft="8dip" />
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_user"
+				android:gravity="right|center_vertical" />
+			<EditText android:id="@+id/edithost_user"
+				android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dip" />
+		</LinearLayout>
+		<View android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="?android:attr/listDivider" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:orientation="horizontal" android:baselineAligned="false"
+			android:gravity="center_vertical">
+			<TextView android:layout_width="80dip"
+				android:layout_height="wrap_content"
+				android:text="@string/edithost_pass"
+				android:gravity="right|center_vertical" />
+			<EditText android:id="@+id/edithost_pass"
+				android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dip" android:password="true" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

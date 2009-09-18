@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">rTerm</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="addressbook_empty">地址簿中没有任何站点</string>
+	<string name="addressbook_help">帮助</string>
+	<string name="addressbook_settings">设置</string>
+	<string name="addressbook_add_host">新增站点</string>
+	<string name="addressbook_edit_host">修改此站点</string>
+	<string name="addressbook_delete_host">删除此站点</string>
+	
+	<string name="addressbook_site_lilacbbs">紫丁香社区</string>
+	<string name="addressbook_site_newsmth">水木社区</string>
+	<string name="addressbook_site_lqqm">两全其美</string>
+	<string name="addressbook_site_ptt">批踢踢</string>
+	<string name="addressbook_site_ptt2">批踢踢兔</string>
+
+
+
+	<string name="edithost_name">站点名称：</string>
+	<string name="edithost_host">站点地址：</string>
+	<string name="edithost_protocal">连接方式：</string>
+	<string name="edithost_encoding">站点编码：</string>
+	<string name="edithost_port">端口：</string>
+	<string name="edithost_user">用户：</string>
+	<string name="edithost_pass">密码：</string>
+	<string name="edithost_protocal_prompt">选择连接方式：</string>
+	<string name="edithost_encoding_prompt">选择编站点码：</string>
+	<string name="edithost_setting_normal">一般设置</string>
+	<string name="edithost_setting_autologin">自动登录设置，如果你填写了"用户"和"密码"，rTerm会自动登录</string>
+	
+	<string name="terminal_disconnect">强制断开连接</string>
+	<string name="terminal_connectclose">连接已经断开</string>
+	<string name="terminal_connectsave">连接已经保存</string>
+	<string name="terminal_error_unknownhost">找不到站点“%s”，请检查网络是否正常，或者站点地址是否拼写错误</string>
+	<string name="terminal_error_connect">无法连接到站点“%s”，请检查网络是否正常，或者或站点目前无法连接</string>
+	
+	<string name="service_running">rTerm正在运行...</string>
+	<string name="settings_normal_settings">一般设置</string>
+	<string name="settings_language">语言</string>
+	<string name="settings_language_summary">设置语言，下次启动时生效</string>
+	<string name="settings_show_statusbar">显示状态栏</string>
+	<string name="settings_show_statusbar_summary">设置在Term状态下是否显示状态栏</string>
+	<string name="terminal_view_outofmemory">内存不足，无法再放大</string>
+	
+</resources>

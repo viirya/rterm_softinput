@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">rTerm</string>
+   <string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="addressbook_empty">No site found, please add site first</string>
+	<string name="addressbook_help">Help</string>
+	<string name="addressbook_settings">Settings</string>
+	<string name="addressbook_add_host">New site</string>
+	<string name="addressbook_edit_host">Edit this site</string>
+	<string name="addressbook_delete_host">Delete this site</string>
+	
+	<string name="addressbook_site_lilacbbs">紫丁香社区</string>
+	<string name="addressbook_site_newsmth">水木社区</string>
+	<string name="addressbook_site_lqqm">两全其美</string>
+	<string name="addressbook_site_ptt">批踢踢</string>
+	<string name="addressbook_site_ptt2">批踢踢兔</string>
+
+	<string name="edithost_name">Site name</string>
+	<string name="edithost_host">Site address</string>
+	<string name="edithost_protocal">Connection type</string>
+	<string name="edithost_encoding">Site encoding</string>
+	<string name="edithost_port">Port</string>
+	<string name="edithost_user">User</string>
+	<string name="edithost_pass">Password</string>
+	<string name="edithost_protocal_prompt">Select connection type</string>
+	<string name="edithost_encoding_prompt">Select site encoding</string>
+	<string name="edithost_setting_normal">Normal setting</string>
+	<string name="edithost_setting_autologin">rTerm will auto login if you filled the "User" and "Password" field</string>
+	
+	<string name="terminal_disconnect">Force to disconnect</string>
+	<string name="terminal_connectclose">Connection is closed</string>
+	<string name="terminal_connectsave">Connection is saved</string>
+	<string name="terminal_error_unknownhost">Can't find site “%s”，please check the networking and site address</string>
+	<string name="terminal_error_connect">Can't connect to “%s”，please check the networking，or the site is can't connected</string>
+	<string name="service_running">rTerm is running...</string>
+	<string name="settings_normal_settings">Normal settings</string>
+	<string name="settings_language">Language</string>
+	<string name="settings_language_summary">Select the your default language, restart needed</string>
+	<string name="settings_show_statusbar">Show statusbar</string>
+	<string name="settings_show_statusbar_summary">Show statusbar on Terminal mode</string>		
+	<string name="terminal_view_outofmemory">Out of memory, can not be zoom in further</string>
+</resources>

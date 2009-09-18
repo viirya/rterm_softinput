@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="protocals">
+        <item>telnet</item>
+<!-- 
+        <item>ssh</item>
+ -->
+    </string-array>
+    <string-array name="encodings">
+        <item>GBK</item>
+        <item>Big5</item>
+    </string-array>
+    <string-array name="languages">
+        <item>"英文"</item>
+        <item>"简体中文"</item>
+        <item>"繁体中文"</item>
+    </string-array>
+    <string-array name="languages_value">
+        <item>"en"</item>
+        <item>"zh_CN"</item>
+	<item>"zh_TW"</item>
+    </string-array>  
+</resources>
